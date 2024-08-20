@@ -6,7 +6,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
 {
-enunciado: "Qual o seu nível de conhecimento sobre os impactos das Qual o seu nível de conhecimento sobre a desigualdade social?",
+enunciado: " Qual o seu nível de conhecimento sobre a desigualdade social?" 
 
 alternativas: [
 {
