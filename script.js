@@ -26,10 +26,10 @@ alternativas: [
 
             afirmacao: "Você tem um conhecimento aprofundado sobre a desigualdade social . "
 
-      }
-    ]
- },
- {
+}
+]
+},
+{
        enunciado: "1.Qual é uma das principais causas da desigualdade social no Brasil?",
 
         alternativas: [
