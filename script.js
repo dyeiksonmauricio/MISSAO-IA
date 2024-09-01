@@ -1,35 +1,4 @@
-const caixaPrincipal = document.querySelector(".caixa-principal");
-const caixaPerguntas = document.querySelector(".caixa-perguntas");
-const caixaAlternativas = document.querySelector(".caixa-alternativas");
-const caixaResultado = document.querySelector(".caixa-resultado");
-const textoResultado = document.querySelector(".texto-resultado");
 
-const perguntas = [
-{
-enunciado: " Qual o seu nível de conhecimento sobre a desigualdade social?" 
-
-alternativas: [
-{
-     texto: "Baixo",
-
-              afirmacao: "Você está começando a aprender sobre a desigualdade social?. "
-     },
-     {
-
-      texto: "Médio",
-
-             afirmacao: "Você tem um conhecimento razoável sobre a desigualdade social. "
-
-      },
-      {
-             texto: "Alto",
-
-            afirmacao: "Você tem um conhecimento aprofundado sobre a desigualdade social . "
-
-}
-]
-},
-{
        enunciado: "1.Qual é uma das principais causas da desigualdade social no Brasil?",
 
         alternativas: [
@@ -244,7 +213,7 @@ alternativas: [
 {
 texto: "Baixo",
 
-afirmacao: [ "Você sabe apenas a base sobre a globalização. ",
+afirmacao: [ "Você sabe apenas a base sobre a desiguladade social. ",
     "É necessário estudar mais sobre o assunto",
     "Realizar pesquisas e fazer exercícios pode ajudar."
 ]
@@ -252,7 +221,7 @@ afirmacao: [ "Você sabe apenas a base sobre a globalização. ",
 {
 texto: "Médio",
 
-afirmacao: [ "Você tem um bom entendimento sobre a globalização. ",
+afirmacao: [ "Você tem um bom entendimento sobre a a desiguladade social. ",
     "Seu nivel de conhecimento para esse assunto é bom",
     "Realização de exercícios pode te dar ainda mais conhecimento sobre o assunto."
 ]
@@ -260,7 +229,7 @@ afirmacao: [ "Você tem um bom entendimento sobre a globalização. ",
 {
 texto: "Alto",
 
-afirmacao: [ "Você tem tem um conhecimento aprofundado sobre a globalização.",
+afirmacao: [ "Você tem tem um conhecimento aprofundado sobre a desiguladade social.",
       "Parabéns pelo seu conhecimento, continue assim ",
       "Sempre deixe pelo menos 1h do seu dia para os estudos."
       ]
@@ -268,81 +237,68 @@ afirmacao: [ "Você tem tem um conhecimento aprofundado sobre a globalização."
 ]
 },
 {
-enunciado: "1) A globalização é um processo contínuo de integração, em especial, econômica do globo. Para tal, torna-se necessário a disponibilidade de ferramentas que permitem a organização das redes e dos fluxos entre as diferentes regiões do mundo. Desse modo, pode-se apontar que a globalização está amparada no:",
+enunciado: "1.Qual é uma das principais causas da desigualdade social no Brasil?",
 alternativas: [
 {
-texto: "a)   protecionismo econômico praticado pelos países desenvolvidos",
+texto: "a) Desigualdade de renda",
 
-afirmacao: [ " Esta alternativa está incorreta." ,
-       "Não foi dessa vez, mas continue se esforçando que irá conseguir! "
+afirmacao: [ " Esta alternativa está correta." ,
+       "Parabéns está correto, continue assim.! "
 ]
 
 },
 {
-texto: "b) desenvolvimento dos meios de transporte e de comunicação",
+texto: "b) Igualdade de oportunidades",
 
-afirmacao:"1-B) Esta alternativa está correta pois a globalização é um processo de integração econômica e social que necessita de uma rede de ligações entre os diferentes pontos do globo. "
+afirmacao:"1-B) Esta alternativa está incorreta"
 },[
-          "Parabéns está correto, continue assim."],
+          "Não foi dessa vez, mas continue se esforçando que irá conseguir!"],
 {
-texto: [ "c) emprego de técnicas tradicionais de produção, como o fordismo",
+texto: [ "c) Baixa inflação",
 afirmacao: "Esta alternativa está incorreta.",
 
         "Não foi dessa vez, mas continue se esforçando que irá conseguir!"]
-},
-{
-texto: [ "d) comprometimento com o desenvolvimento sustentável das nações",
-afirmacao: "Esta alternativa está incorreta.",
-           "Não foi dessa vez, mas continue se esforçando que irá conseguir! "]
 }
 
 ]
 },
 {
-enunciado: "2 - As atividades industriais da globalização estão extremamente internacionalizadas e são baseadas em ferramentas tecnológicas de produção e comercialização. Sendo assim, destacam-se, no processo de globalização, as empresas ligadas à:",
+enunciado: "2. O que é a desigualdade de renda?",
 alternativas: [
 {
-texto: "a) produção de conhecimento, como as de informática",
-afirmacao: "2-A) Esta alternativa esta correta pois as principais indústrias desse período estão relacionadas ao desenvolvimento tecnológico, como as de informática. "
+texto: "a) Diferença nos níveis de educação",
+afirmacao: "2-A) Esta alternativa esta incorreta. "
 },
 {
-texto: "b) exploração de bens primários, como as madeireiras",
+texto: "b) Diferença na distribuição de renda entre diferentes grupos da população",
 
-afirmacao: "Está altenativa está incorreta. "
+afirmacao: "Está altenativa está correta. "
 
 },
 {
-texto: "c) atividade de produção artesanal, como as têxteis",
+texto: "c) Acesso igualitário aos serviços de saúde",
 afirmacao: "Está altenativa está incorreta. "
 },
-{
-texto: "d) alta exploração dos trabalhadores, como as de base",
-afirmacao: "Está alternativa está incorreta. "
-}
 ]
 },
-{
-enunciado: "3 - Com relação ao espaço mundial, o processo de globalização provoca uma homogeneização da produção e do consumo em nível global, porém esse processo não é uniforme em todo o planeta. Desse modo, pode-se afirmar que a globalização resultou na: ",
+
+enunciado: "3. Qual é um dos indicadores mais utilizados para medir a desigualdade social?",
 alternativas: [
 {
-texto: "a) melhoria da qualidade de vida das populações periféricas",
+texto: " a) Taxa de natalidade",
 afirmacao: "Está alternativa está incorreta. "
 },
 {
-texto: "b) utilização de mão de obra com baixa qualificação profissional",
-afirmacao: "Está alternativa está incorreta. "
+texto: "b) Índice de Gini",
+afirmacao: "Está alternativa está correta. "
 },
 {
-texto: "c) acentuação da desigualdade social entre diferentes regiões",
-afirmacao: "3-C) Esta alternativa esta correta pois a globalização não atua de maneira uniforme em todas as regiões do globo. "
+texto: "c) Taxa de desemprego",
+afirmacao: "3-b) Esta alternativa esta correta. "
 
 },
 
-{
-texto: "d)diminuição dos impactos ambientais gerados no globo",
-afirmacao: "Está alternativa está incorreta. "
 
-}
 ]
 }
   
